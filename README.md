@@ -40,7 +40,7 @@ To help prepare for this project I have broken it into 5 epics and the user stor
 
 ### Hypothesis  
 
-* We suspect that leaves that are infected by the powdery mildrew have a lighter colour and patches across the leaf compared to a healthier leaf.
+* We suspect that leaves that are infected by the powdery mildrew have a lighter colour and patches across the leaf and their edges to be distorted and folded compared to a healthier leaf.
 
 ### Validation
 
@@ -53,11 +53,23 @@ We will create a binary classification model:
 
 
 ## Rationale to map the business requirements to the Data Visualizations and ML tasks
-* List your business requirements and a rationale to map them to the Data Visualizations and ML tasks.
+
+### * Business Requirement 1: Data Visualisation
+* I will display the "mean" and "standard deviation" for images containing healthy leaves and leaves containing powdery mildew.
+* I will show the difference between an average healthy leaf compared to a leaf containing powdery mildew
+* There will be an image montage showing all healthy leaf or a leaf containing powdery mildew 
+
+### * Business Requirement 2: Predicting and classifying images
+* Predict if a given image contains a leaf that is affected by the powdery mildew or is healthy
+* Build a ML model to predict future images with cherry leaves contained and classify them with a Neural Network that maps relationships. 
 
 
 ## ML Business Case
-* In the previous bullet, you potentially visualized a ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
+* From a given dataset of images I must create a ML model to predict if a cherry leaf is healthy or has a powdery mildew on it. It will be a fully supervised model.  
+* The purpose of this is to speed up the time it takes to detect whether or not a leaf is healthy. Currently it takes around 30 minutes on each tree to visually verify and then a further minute to apply a compund to kill the fungus.
+* A success metric has been set at 97% Accuracy or above as the cherry plantation crop is one of their finest products in the portfolio and the company is concerned about supplying the market with a product of compromised quality.
+* The client will benefit by not supplying the market with a product of poor quality by the creation of this model. 
+* The training data can be found from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). This contains 4208 Images. All images are uniformed at (256,256,256,3). To ensure the performance is not affected I will reduce the image shape to something around 30x30
 
 
 ## Dashboard Design
