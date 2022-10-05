@@ -13,9 +13,43 @@ To save time in this process, the IT team suggested an ML system that is capable
 * 1 - The client is interested in conducting a study to visually differentiate a cherry leaf that is healthy and that contains powdery mildew.
 * 2 - The client is interested to predict if a cherry leaf is healthy or contains powdery mildew.
 
+## Epics and User Stories 
+
+To help prepare for this project I have broken it into 5 epics and the user stories attached with each epic.
+
+### Information gathering and data collection
+* As a data collector I must ensure that the data used is of sufficient quantity and quality. As Garbage in results in garbage out. 
+
+### Data visualisation, cleaning and preparation
+* As a data user I must ensures images are resized to ensure a smoother push to GitHub
+* As a data user I must create a plot to distinguish contrast between powdery mildrew leaves and normal leaves
+
+### Model training, optimisation and validation
+* As a user I want a degree of 97% accuracy
+
+### Dashboard plannning, designing and development
+* As a user I want a Project summary page, showing the project dataset summary and clients requirements
+* As a user I want a page listing all findings related to the study to visually differentiate a cherry leaf that is helathy and one that isn't
+* As a user I want to be able to download a set of cherry leaf images for live predictions
+* As a user I want to be able to upload (multiple) images and for each image it will produce a prediction on whether the cherry leaf is healthy or not
+
+### Dashboard deployment and release
+* As a user I want the Dasboard to be easy to use and clear to understand
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision to validate it (them).
+
+### Hypothesis  
+
+* We suspect that leaves that are infected by the powdery mildrew have a lighter colour and patches across the leaf compared to a healthier leaf.
+
+### Validation
+
+An average image study and variability images study will help to investigate. There needs to be a 97% degree of accuracy.  
+We will create a binary classification:
+
+* Cherry leaves **with** Mildrew  
+
+* Cherry leaves **without** Mildrew
 
 
 ## Rationale to map the business requirements to the Data Visualizations and ML tasks
