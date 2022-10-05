@@ -136,7 +136,26 @@ I shall include a side navigation bar with links to the 5 pages I intend to crea
 
 ## Main Data Analysis and Machine Learning Libraries
 * Here you should list the libraries you used in the project and provide example(s) on how you used these libraries.
-
+* numpy  
+     * Used to handle multi-dimentional arrays to operate on them including mathematical functions.
+* pandas  
+     * Used to structure the data in tables. Also used for data cleaning
+* matplotlib 
+     * Used to visualise the data (along with Seaborn)
+* Seaborn 
+     * Used to visulaise the scatterplots/ bar plots and set themes and colour style
+* Joblib
+     * Used to pipeline the python objects containing models ready to be used to visualise.
+* Shutil
+     * Supports file copying and removal
+* random
+     * Used to generate random numbers
+* Tensorflow
+     * Used to create machine learning models; focusing on deep neural networks.
+* Scikit-learn
+     * Used to provide the tools needed for machine learning modeling.
+* Streamlit
+     * Used to create the dashboard. It connects the back-end information to the front end.
 
 ## Credits 
 
