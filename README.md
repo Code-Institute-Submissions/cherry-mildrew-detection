@@ -1,5 +1,5 @@
 ## Dataset Content
-* The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). We created then a fictitious user story where predictive analytics can be applied in a real project in the workplace.
+* The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). We created them a fictitious user story where predictive analytics can be applied in a real project in the workplace.
 * The dataset contains +4 thousand images taken from client's crop fields. The images show cherry leaves that are healthy and cherry leaves that contain powdery mildew, which is a fungal disease that affects a wide range of plants. The cherry plantation crop is one of their finest products in the portfolio and the company is concerned about supplying the market with a product of compromised quality.
 
 
@@ -45,11 +45,11 @@ To help prepare for this project I have broken it into 5 epics and the user stor
 ### Validation
 
 An average image study and variability images study will help to investigate. There needs to be a 97% degree of accuracy.  
-We will create a binary classification:
+We will create a binary classification model:
 
-* Cherry leaves **with** Mildrew  
+* Cherry leaves **with** Mildrew - 1 powdery mildew
 
-* Cherry leaves **without** Mildrew
+* Cherry leaves **without** Mildrew - 0 healthy
 
 
 ## Rationale to map the business requirements to the Data Visualizations and ML tasks
@@ -61,12 +61,53 @@ We will create a binary classification:
 
 
 ## Dashboard Design
-* List all dashboard pages and its content, either block of information or widgets, like: buttons, checkbox, image, or any other item that your dashboard library supports.
-* Eventually, during the project development, you may revisit your dashboard plan to update a give feature (for example, in the beginning of the project you were confident you would use a given plot to display an insight but eventually you needed to use another plot type).
+---
+As set out by the client a dashboard is required to present the models and data.
+
+I shall include a side navigation bar with links to the 5 pages I intend to create.   
+1. Summary of project, showing the project dataset summary and the client's requirements.  
+2. My findings related to a study to visually differentiate a cherry leaf that is healthy from one that contains powdery mildew  
+3. A page allowing the user to download the images of the cherry leaves from Kaggle and a file uploader to upload users own images and a table with the image name and prediction result.  
+4. My project hypothesis and how I validated across the project  
+5. Technical page displaying your model performance
+
+### Page 1: Summary of the project
+
+* General Information  
+      * Cherry Mildew is caused by Podosphaera clandestina, an obligate biotrophic fungus.
+      * Project data set- Contains 4208 images divided equally between healthy and powdery mildew.
+      * Link to additional information
+      * Business Requirements
+
+### Page 2: Cherry Leaf visualiser  
+
+* It will answer business requirement 1. 
+   * Difference between average and variability image
+   * Difference between average healthy leaf and a leaf containing powdery mildew
+   * Image Montage  
+
+
+### Page 3: Mildew Detection 
+
+* It will answer business requirement 2.
+   * Link to download cherry leaves dataset
+   * User interface to upload files/images. It will then display the image uploaded and include a prediction statement as to whether the image is an healthy leaf or contains cherry mildew.
+   * Table with image name and prediction result
+   Download button to download the table
+
+### Page 4: Hypothesis and Validation
+
+* The project hypothesis is shown in a success box, desribing the conclusion and how it was validated.
+
+### Page 5: ML performance 
+
+* Label frequencies for Train, validation and Test sets.
+* History of Model- Accuracy and Loss
+* Evaluation result of Model
 
 
 ## Unfixed Bugs
-* You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+* All bugs were fixed as I went along. I did however create this repository after creating one earlier with the first and second notebooks already created. This was due to an issue when restarting my notebooks and the dat being lost. I wasnt able to resolve it on my old repository therefore I created this one and copied the work I had done previously onto this one, to ensure i met my project deadline. 
 
 ## Deployment
 ### Heroku
@@ -87,8 +128,7 @@ We will create a binary classification:
 
 ## Credits 
 
-* In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
+* Alot of this came from the First walkthrough project from the @codeinstitute program- Detecting Malaria.
 
 ### Content 
 
@@ -100,8 +140,3 @@ We will create a binary classification:
 
 - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
-
-
-
-## Acknowledgements (optional)
-* In case you would like to thank the people that provided support through this project.
