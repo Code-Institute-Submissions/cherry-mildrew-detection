@@ -166,13 +166,8 @@ I shall include a side navigation bar with links to the 5 pages I intend to crea
 
 * Alot of this came from the First walkthrough project from the @codeinstitute program- Detecting Malaria.
 
+
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+* Content on summary page came from [Washington state Uni](http://treefruit.wsu.edu/crop-protection/disease-management/cherry-powdery-mildew/#:~:text=Powdery%20mildew%20of%20sweet%20and,1)
+- The icons in the title were taken from [DEV](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia)
