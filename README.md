@@ -1,6 +1,6 @@
 ## Dataset Content
 * The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). We created them a fictitious user story where predictive analytics can be applied in a real project in the workplace.
-* The dataset contains +4 thousand images taken from client's crop fields. The images show cherry leaves that are healthy and cherry leaves that contain powdery mildew, which is a fungal disease that affects a wide range of plants. The cherry plantation crop is one of their finest products in the portfolio and the company is concerned about supplying the market with a product of compromised quality.
+* The dataset contains +4 thousand images taken from Farmy & Foods crop fields. The images show cherry leaves that are healthy and cherry leaves that contain powdery mildew, which is a fungal disease that affects a wide range of plants. The cherry plantation crop is one of their finest products in the portfolio and the company is concerned about supplying the market with a product of compromised quality.
 
 
 
@@ -10,7 +10,7 @@ The cherry plantation crop from Farmy & Foods is facing a challenge where their 
 To save time in this process, the IT team suggested an ML system that is capable of detecting instantly, using a leaf tree image, if it is healthy or has powdery mildew. A similar manual process is in place for other crops for detecting pests, and if this initiative is successful, there is a realistic chance to replicate this project to all other crops. The dataset is a collection of cherry leaf images provided by Farmy & Foods, taken from their crops.
 
 
-* 1 - The client is interested in conducting a study to visually differentiate a cherry leaf that is healthy and that contains powdery mildew.
+* 1 - The client is interested in conducting a study to visually differentiate a cherry leaf that is healthy and one that contains powdery mildew.
 * 2 - The client is interested to predict if a cherry leaf is healthy or contains powdery mildew.
 
 ## Epics and User Stories 
