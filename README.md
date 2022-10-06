@@ -122,7 +122,6 @@ I shall include a side navigation bar with links to the 5 pages I intend to crea
 
 ## Unfixed Bugs
 * All bugs were fixed as I went along. I did however create this repository after creating one earlier with the first and second notebooks already created. This was due to an issue when restarting my notebooks and the dat being lost. I wasnt able to resolve it on my old repository therefore I created this one and copied the work I had done previously onto this one, to ensure i met my project deadline. 
-* Another bug appears when uploading leaves that have powdery mildew on them. It would cause an issue with the bar plot and duplicate the powdery mildew column. This wouldn't happen with a healthy leaf and I am really unsure as to why this is happening. 
 
 ## Deployment
 ### Heroku
