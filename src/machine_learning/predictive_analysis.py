@@ -14,7 +14,7 @@ def plot_predictions_probabilities(pred_proba, pred_class):
 
     prob_per_class= pd.DataFrame(
             data=[0,0],
-            index={'powdery_mildew': 0, 'healthy': 1}.keys(),
+            index={'healthy': 0, 'powdery_mildew': 1}.keys(),
             columns=['Probability']
         )
     prob_per_class.loc[pred_class] = pred_proba
@@ -28,9 +28,8 @@ def plot_predictions_probabilities(pred_proba, pred_class):
             x = 'Diagnostic',
             y = prob_per_class['Probability'],
             range_y=[0,1],
-            width=600, height=300,template='seaborn')
+            width=500, height=300, template='ggplot2')
     st.plotly_chart(fig)
-
 
 
 def resize_input_image(img, version):  
@@ -60,6 +59,6 @@ def load_model_and_predict(my_image, version):
 
     st.write(
         f"The predictive analysis indicates the sample leaf is "
-        f"**{pred_class.lower()}** with powdery mildew.")
+        f"**{pred_class.lower()}**.")
     
     return pred_proba, pred_class
