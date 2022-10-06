@@ -47,9 +47,10 @@ To help prepare for this project I have broken it into 5 epics and the user stor
 An average image study and variability images study will help to investigate. There needs to be a 97% degree of accuracy.  
 We will create a binary classification model:
 
+* Cherry leaves **without** Mildrew - 0 healthy
+
 * Cherry leaves **with** Mildrew - 1 powdery mildew
 
-* Cherry leaves **without** Mildrew - 0 healthy
 
 
 ## Rationale to map the business requirements to the Data Visualizations and ML tasks
@@ -120,6 +121,7 @@ I shall include a side navigation bar with links to the 5 pages I intend to crea
 
 ## Unfixed Bugs
 * All bugs were fixed as I went along. I did however create this repository after creating one earlier with the first and second notebooks already created. This was due to an issue when restarting my notebooks and the dat being lost. I wasnt able to resolve it on my old repository therefore I created this one and copied the work I had done previously onto this one, to ensure i met my project deadline. 
+* Another bug appears when uploading leaves that have powdery mildew on them. It would cause an issue with the bar plot and duplicate the powdery mildew column. This wouldn't happen with a healthy leaf and I am really unsure as to why this is happening. 
 
 ## Deployment
 ### Heroku
@@ -156,6 +158,8 @@ I shall include a side navigation bar with links to the 5 pages I intend to crea
      * Used to provide the tools needed for machine learning modeling.
 * Streamlit
      * Used to create the dashboard. It connects the back-end information to the front end.
+* Plotly
+     * Used to create visulaisations within Jupyter notebooks to present the data. Can be found on Mildew detector page on the dashboard
 
 ## Credits 
 
