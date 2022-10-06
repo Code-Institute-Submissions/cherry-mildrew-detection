@@ -20,7 +20,7 @@ def page_summary_body():
         f"**Project Dataset** \n"
         f" \n The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves).\n"
         f" The dataset contains +4 thousand images taken from Farmy & Foods crop fields. "
-        f"The Images have been split evenly with Helathly Cherry leaves and leaves with powdery Mildew"
+        f"The Images have been split evenly with Healthly Cherry leaves and leaves with powdery Mildew"
     )
 
     st.write(
